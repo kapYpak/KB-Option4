@@ -9,11 +9,11 @@ order: 08
 
 ## Objectif
 
-[Zonemaster](https://zonemaster.fr/) est un outil né de la colaboration entre l'AFNIC (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois) permettant d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments de configuration DNS qui peuvent être améliorés ou corrigés.
+[Zonemaster](https://zonemaster.fr/) est un outil né de la collaboration entre l'AFNIC (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois). Il permet d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments de configuration DNS qui peuvent être améliorés ou corrigés.
 
 > [!primary]
 >
-> Pour mieux comprendre la notion de DNS,n'hésitez pas à lire l'indroduction de notre guides sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/)
+> Pour mieux comprendre la notion de DNS,n'hésitez pas à lire l'indroduction de notre guide sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/).
 
 ## Prérequis
 
@@ -29,43 +29,42 @@ Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre no
 
 ![domains](images/zonemaster01.jpg){.thumbnail}
 
-Pour vérifier une configuration DNS qui a été préparée, mais pas encore appliqué sur le nom de domaine concerné, cochez la case `Options`{.action}
+Pour vérifier une configuration DNS qui a été préparée, mais pas encore appliquée au nom de domaine concerné, cochez la case `Options`{.action}, puis saisissez les informations suivantes :
 
-- **Serveurs DNS** : Saisissez les informations des serveurs DNS associés à un nom de domaine ou une zone DNS, puis cliquez sur le `+`{.action} pour valider votre saisie. La saisie d'une adresse IP est facultative.
-- **Délégation du Signataire (enregistrement DS)**: Dans le cadre d'une protection DNSSEC, saisissez les éléments de l'enregistrement DS, puis cliquez sur `+`{.action} pour ajouter la valeur
+- **Serveurs DNS** : Saisissez les informations du serveur DNS associé à un nom de domaine, puis cliquez sur le `+`{.action} pour valider votre saisie. La saisie d'une adresse IP est facultative.
+- **Délégation du Signataire (enregistrement DS)**: Dans le cadre d'une protection DNSSEC, saisissez les éléments de l'enregistrement DS, puis cliquez sur `+`{.action} pour ajouter la valeur. Si les serveurs DNS nt pas le protocole DNSSEC, vous pouvez ces champs libres.
 
-Vous pouvez également forcer les vérifications uniquement sur un protocole IP, via les cases `Désactiver IPv6` et `Désactiver IPv4`
+Vous pouvez également forcer les vérifications sur un protocole IP spécifique, via les cases `Désactiver IPv6` et `Désactiver IPv4`
+
+> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effetuerez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».
 
 > [!primary]
 >
-> Lorsque vous saisissez un nom de domaine et que vous cliquez sur le bouton `Obtenir les données de la zone parente`{.action}, les serveur DNS associés au nom de domaine apparaitront
+> Lorsque vous saisissez un nom de domaine et que vous cliquez sur le bouton `Obtenir les données de la zone parente`{.action}, les serveurs DNS associés au nom de domaine apparaitront ainsi que les informations de l'enregistrement DS (DNSSEC) si celui-ci a été configuré.
 
 ![domains](images/zonemaster01.jpg){.thumbnail}
 
-### Resultat
+### Résultat
 
-Une fois le formulaire validé, le résultat apparaît après quelques instants :
+Une fois le formulaire validé, les résultats sont classés par code couleur :
 
-- Si tout est au vert : Votre zone est correcte. Vous pouvez valider le changement de serveurs DNS depuis votre manager
-- Si vous avez des éléments en rouge : Le détail du résultat vous permettra de mener les corrections nécessaires.
-
-Attention, si vous avez des élements en rouge , il ne faut pas lancer de mise à jour de serveurs DNS sans savoir ce que vous faites, car l'opération lancée risquera d'être bloquée et vos services liés au domaines pourraient ne plus fonctionner.
+- **Vert** : Cette partie est fonctionnelle et répond aux critères standard dans sa catégorie.
+- **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté que ce paramètre présente des caractéristiques qui ne rentre pas au standard de sa catégorie, sans bloqué son fonctionnement.
+- **Rouge** : Cette partie n'est pas fonctionnelle ou manquante. 
+- **Bleu** : il s'agit d'une simple information, sans conséquence particulière sur le fonctionnement du nom de domaine.
 
 ![domains](images/img_3211.jpg){.thumbnail}
 
 ### Informations utiles
 
-Si vous avez des questions concernant cet outil et ses fonctionnalités, je vous invite à vous rendre dans la rubrique [FAQ](https://zonemaster.net/faq) de ZoneMaster.
+Si vous avez des questions supplémentaires au sujet de Zonemaster, consultez la rubrique [FAQ](https://zonemaster.net/faq) sur <https://zonemaster.fr/>.
 
-![domains](images/img_3212.jpg){.thumbnail}
 
 ## Aller plus loin
 
 [Généralités sur les serveurs DNS](../generalites-serveurs-dns/){.external}.
 
-[ Modification d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external} DNS OVHcloud.
-
-[Ajouter un champ SPF à la configuration de son nom de domaine](../le-champ-spf/){.external}.
+[Modification d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external} DNS OVHcloud.
 
 [Protégez votre domaine contre le Cache Poisoning avec le DNSSEC](https://www.ovhcloud.com/fr/domains/dnssec/){.external}.
 
