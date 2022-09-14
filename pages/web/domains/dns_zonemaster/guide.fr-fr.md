@@ -9,27 +9,41 @@ order: 08
 
 ## Objectif
 
+[Zonemaster](https://zonemaster.fr/) est un outil né de la colaboration entre l'AFNIC (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois) permettant d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments de configuration DNS qui peuvent être améliorés ou corrigés.
+
+> [!primary]
+>
+> Pour mieux comprendre la notion de DNS,n'hésitez pas à lire l'indroduction de notre guides sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/)
 
 ## Prérequis
 
-- Disposer d'un [nom de domaine](https://www.ovhcloud.com/fr/domain/){.external}
+- Disposer d'un [nom de domaine](https://www.ovhcloud.com/fr/domain/)
 
 ## En pratique
 
-### Renseignement des champs demandes
-L'outil [Zone Check](https://zonemaster.fr/){.external} de l'AFNIC sert à vérifier la bonne configuration des DNS primaire et secondaire que vous souhaitez déclarer.
+### Champ de saisie
 
-Pour cela rendez-vous sur le site ZoneMaster en [cliquant ici](https://zonemaster.fr/){.external}. Cliquez ensuite sur "Test d'un domaine non délégué", puis remplissez les champs ci-dessous :
+L'outil Zonemaster sert à vérifier la bonne configuration DNS sur un nom de domaine.
 
-- Nom de domaine : indiquez votre nom de domaine à tester
-- Serveurs DNS : cliquez sur le + suivant le nombre de serveurs DNS à tester, puis indiquer le(s) serveur(s) ainsi que la/les IP correspondantes.
-- Cliquez ensuite sur le bouton de "validation" afin d'obtenir le résultat.
+Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre nom de domaine, puis cliquez sur `check`{.action}
 
+![domains](images/zonemaster01.jpg){.thumbnail}
 
-![domains](images/img_3213.jpg){.thumbnail}
+Pour vérifier une configuration DNS qui a été préparée, mais pas encore appliqué sur le nom de domaine concerné, cochez la case `Options`{.action}
 
+- **Serveurs DNS** : Saisissez les informations des serveurs DNS associés à un nom de domaine ou une zone DNS, puis cliquez sur le `+`{.action} pour valider votre saisie. La saisie d'une adresse IP est facultative.
+- **Délégation du Signataire (enregistrement DS)**: Dans le cadre d'une protection DNSSEC, saisissez les éléments de l'enregistrement DS, puis cliquez sur `+`{.action} pour ajouter la valeur
+
+Vous pouvez également forcer les vérifications uniquement sur un protocole IP, via les cases `Désactiver IPv6` et `Désactiver IPv4`
+
+> [!primary]
+>
+> Lorsque vous saisissez un nom de domaine et que vous cliquez sur le bouton `Obtenir les données de la zone parente`{.action}, les serveur DNS associés au nom de domaine apparaitront
+
+![domains](images/zonemaster01.jpg){.thumbnail}
 
 ### Resultat
+
 Une fois le formulaire validé, le résultat apparaît après quelques instants :
 
 - Si tout est au vert : Votre zone est correcte. Vous pouvez valider le changement de serveurs DNS depuis votre manager
@@ -37,24 +51,23 @@ Une fois le formulaire validé, le résultat apparaît après quelques instants 
 
 Attention, si vous avez des élements en rouge , il ne faut pas lancer de mise à jour de serveurs DNS sans savoir ce que vous faites, car l'opération lancée risquera d'être bloquée et vos services liés au domaines pourraient ne plus fonctionner.
 
-
 ![domains](images/img_3211.jpg){.thumbnail}
 
-
 ### Informations utiles
-Si vous avez des questions concernant cet outil et ses fonctionnalités, je vous invite à vous rendre dans la rubrique "FAQ" de ZoneMaster.
 
+Si vous avez des questions concernant cet outil et ses fonctionnalités, je vous invite à vous rendre dans la rubrique [FAQ](https://zonemaster.net/faq) de ZoneMaster.
 
 ![domains](images/img_3212.jpg){.thumbnail}
 
-
-
-
 ## Aller plus loin
 
-[Se connecter à l’espace de stockage de son hébergement Web](https://docs.ovh.com/fr/hosting/connexion-espace-stockage-ftp-hebergement-web/){.external}
+[Généralités sur les serveurs DNS](../generalites-serveurs-dns/){.external}.
 
-[Se connecter à l'aide du logiciel Filezilla](https://docs.ovh.com/fr/hosting/mutualise-guide-utilisation-filezilla/)
+[ Modification d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external} DNS OVHcloud.
+
+[Ajouter un champ SPF à la configuration de son nom de domaine](../le-champ-spf/){.external}.
+
+[Protégez votre domaine contre le Cache Poisoning avec le DNSSEC](https://www.ovhcloud.com/fr/domains/dnssec/){.external}.
 
 Pour des prestations spécialisées (référencement, développement, etc), contactez les [partenaires OVHcloud](https://partner.ovhcloud.com/fr/).
 
