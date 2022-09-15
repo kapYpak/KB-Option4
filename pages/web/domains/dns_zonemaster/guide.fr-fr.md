@@ -7,13 +7,21 @@ order: 08
 
 **Dernière mise à jour le 12/09/2022**
 
+> [!warning]
+>
+> OVHcloud met à votre disposition des services dont la configuration, la gestion et la responsabilité vous incombent. Il vous revient de ce fait d'en assurer le bon fonctionnement.
+> 
+> Nous mettons à votre disposition ce guide afin de vous accompagner au mieux sur des tâches courantes. Néanmoins, nous vous recommandons de faire appel à un [prestataire spécialisé](https://partner.ovhcloud.com/fr/) si vous éprouvez des difficultés. En effet, nous ne serons pas en mesure de vous fournir une assistance. Plus d'informations dans la section [« Aller plus loin »](#go-further) de ce guide.
+> 
+
+
 ## Objectif
 
-[Zonemaster](https://zonemaster.fr/) est un outil né de la collaboration entre l'[AFNIC](https://www.afnic.fr/) (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois). Il permet d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments qui peuvent être améliorés ou corrigés.
+[Zonemaster](https://zonemaster.fr/) est un outil né de la collaboration entre l'[AFNIC](https://www.afnic.fr/) (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre suédois). Il permet d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments qui peuvent être améliorés ou corrigés.
 
 > [!primary]
 >
-> Pour mieux comprendre la notion de DNS, consultez l'indroduction de notre guide sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/).
+> Pour mieux comprendre la notion de DNS, consultez l'introduction de notre guide sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/).
 
 ## Prérequis
 
@@ -23,7 +31,7 @@ order: 08
 
 ### Champ de saisie
 
-L'outil Zonemaster vous permet de vérifier une configuration DNS en place sur un nom de domaine ou tester une zone DNS préconfigurée sur des futurs serveurs DNS.
+L'outil Zonemaster permet de vérifier une configuration DNS en place sur un nom de domaine ou de tester une zone DNS préconfigurée sur des futurs serveurs DNS.
 
 Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre nom de domaine, puis cliquez sur `check`{.action}
 
@@ -32,11 +40,11 @@ Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre no
 Pour vérifier une configuration DNS qui a été préparée, mais pas encore appliquée au nom de domaine concerné, cochez la case `Options`{.action}, puis saisissez les informations suivantes :
 
 - **Serveurs DNS** : Saisissez les informations du serveur DNS associé à un nom de domaine, puis cliquez sur le `+`{.action} pour valider votre saisie. La saisie d'une adresse IP est facultative.
-- **Délégation du Signataire (enregistrement DS)**: Dans le cadre d'une protection DNSSEC, saisissez les éléments de l'enregistrement DS, puis cliquez sur `+`{.action} pour ajouter la valeur. Si les serveurs DNS nt pas le protocole DNSSEC, vous pouvez ces champs libres.
+- **Délégation du Signataire (enregistrement DS)**: Dans le cadre d'une protection DNSSEC, saisissez les éléments de l'enregistrement DS, puis cliquez sur `+`{.action} pour ajouter la valeur. Si les serveurs DNS n'utilisent pas le protocole DNSSEC, vous pouvez laisser ces champs libres.
 
 Vous pouvez également forcer les vérifications sur un protocole IP spécifique, via les cases `Désactiver IPv6` et `Désactiver IPv4`
 
-> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effetuerez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».<br>
+> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effectuez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les serveurs « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».<br>
 > ![domains](images/zonemaster02.png){.thumbnail}
 
 > [!primary]
@@ -50,7 +58,7 @@ Vous pouvez également forcer les vérifications sur un protocole IP spécifique
 Une fois le formulaire validé, les résultats sont classés par code couleur :
 
 - **Vert** : Cette partie est fonctionnelle et répond aux critères standard dans sa catégorie.
-- **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté que ce paramètre présente des caractéristiques qui ne rentre pas au standard de sa catégorie, sans bloqué son fonctionnement.
+- **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté que ce paramètre présente des caractéristiques qui ne rentrent pas au standard de sa catégorie, sans bloquer son fonctionnement.
 - **Rouge** : Cette partie présente des erreurs ou des éléments manquants pouvant causer un dysfonctionnement  . 
 - **Bleu** : il s'agit d'une simple information, sans conséquence particulière sur le fonctionnement du nom de domaine.
 
