@@ -23,7 +23,7 @@ order: 08
 
 ### Champ de saisie
 
-L'outil Zonemaster sert à vérifier la bonne configuration DNS sur un nom de domaine.
+L'outil Zonemaster vous permet de vérifier une configuration DNS en place sur un nom de domaine ou tester une zone DNS préconfigurée sur des futurs serveurs DNS.
 
 Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre nom de domaine, puis cliquez sur `check`{.action}
 
