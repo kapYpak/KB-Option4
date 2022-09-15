@@ -5,15 +5,15 @@ section: DNS et zone DNS
 order: 08
 ---
 
-**Dernière mise à jour le 01209/2022**
+**Dernière mise à jour le 12/09/2022**
 
 ## Objectif
 
-[Zonemaster](https://zonemaster.fr/) est un outil né de la collaboration entre l'AFNIC (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois). Il permet d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments de configuration DNS qui peuvent être améliorés ou corrigés.
+[Zonemaster](https://zonemaster.fr/) est un outil né de la collaboration entre l'[AFNIC](https://www.afnic.fr/) (registre français) et [The Swedish Internet Foundation](https://internetstiftelsen.se/en/) (registre Suédois). Il permet d'analyser la configuration DNS (Domain Name System) d'un nom de domaine et d'identifier les éléments qui peuvent être améliorés ou corrigés.
 
 > [!primary]
 >
-> Pour mieux comprendre la notion de DNS,n'hésitez pas à lire l'indroduction de notre guide sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/).
+> Pour mieux comprendre la notion de DNS, consultez l'indroduction de notre guide sur la [configuration d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/).
 
 ## Prérequis
 
@@ -27,7 +27,7 @@ L'outil Zonemaster sert à vérifier la bonne configuration DNS sur un nom de do
 
 Pour vérifier la configuration actuelle d'un nom de domaine, saisissez votre nom de domaine, puis cliquez sur `check`{.action}
 
-![domains](images/zonemaster01.jpg){.thumbnail}
+![domains](images/zonemaster01.png){.thumbnail}
 
 Pour vérifier une configuration DNS qui a été préparée, mais pas encore appliquée au nom de domaine concerné, cochez la case `Options`{.action}, puis saisissez les informations suivantes :
 
@@ -36,13 +36,14 @@ Pour vérifier une configuration DNS qui a été préparée, mais pas encore app
 
 Vous pouvez également forcer les vérifications sur un protocole IP spécifique, via les cases `Désactiver IPv6` et `Désactiver IPv4`
 
-> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effetuerez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».
+> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effetuerez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».<br>
+> ![domains](images/zonemaster02.png){.thumbnail}
 
 > [!primary]
 >
 > Lorsque vous saisissez un nom de domaine et que vous cliquez sur le bouton `Obtenir les données de la zone parente`{.action}, les serveurs DNS associés au nom de domaine apparaitront ainsi que les informations de l'enregistrement DS (DNSSEC) si celui-ci a été configuré.
+> ![domains](images/zonemaster03.png){.thumbnail}
 
-![domains](images/zonemaster01.jpg){.thumbnail}
 
 ### Résultat
 
@@ -50,10 +51,10 @@ Une fois le formulaire validé, les résultats sont classés par code couleur :
 
 - **Vert** : Cette partie est fonctionnelle et répond aux critères standard dans sa catégorie.
 - **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté que ce paramètre présente des caractéristiques qui ne rentre pas au standard de sa catégorie, sans bloqué son fonctionnement.
-- **Rouge** : Cette partie n'est pas fonctionnelle ou manquante. 
+- **Rouge** : Cette partie présente des erreurs ou des éléments manquants pouvant causer un dysfonctionnement  . 
 - **Bleu** : il s'agit d'une simple information, sans conséquence particulière sur le fonctionnement du nom de domaine.
 
-![domains](images/img_3211.jpg){.thumbnail}
+![domains](images/zonemaster04.png){.thumbnail}
 
 ### Informations utiles
 
