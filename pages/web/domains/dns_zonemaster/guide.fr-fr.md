@@ -78,7 +78,7 @@ Si vous avez des questions supplémentaires au sujet de Zonemaster, consultez la
 
 [Généralités sur les serveurs DNS](../generalites-serveurs-dns/){.external}.
 
-[Modification d'une zone DNS](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external} DNS OVHcloud.
+[Modification d'une zone DNS OVHcloud](https://docs.ovh.com/fr/domains/editer-ma-zone-dns/){.external}.
 
 [Protégez votre domaine contre le Cache Poisoning avec le DNSSEC](https://www.ovhcloud.com/fr/domains/dnssec/){.external}.
 
