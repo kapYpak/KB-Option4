@@ -1,5 +1,5 @@
 ---
-title: 'Utilisation de Zonemaster'
+title: 'Tutoriel - Utilisation de Zonemaster'
 slug: zonecheck-de-votre-domaine
 section: DNS et zone DNS
 order: 08
