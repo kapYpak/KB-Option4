@@ -1,6 +1,6 @@
 ---
 title: 'Tutoriel - Utilisation de Zonemaster'
-slug: zonecheck-de-votre-domaine
+slug: ovhcloud-domain-zonemaster-tutorial
 section: DNS et zone DNS
 order: 08
 ---
