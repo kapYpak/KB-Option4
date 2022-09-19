@@ -54,6 +54,7 @@ Vous pouvez également forcer les vérifications sur un protocole IP spécifique
 > [!primary]
 >
 > Lorsque vous saisissez un nom de domaine et que vous cliquez sur le bouton `Obtenir les données de la zone parente`{.action}, les serveurs DNS associés au nom de domaine apparaitront ainsi que les informations de l'enregistrement DS (DNSSEC) si celui-ci a été configuré.
+>
 > ![domains](images/zonemaster03.png){.thumbnail}
 
 
