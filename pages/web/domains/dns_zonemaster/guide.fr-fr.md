@@ -44,7 +44,11 @@ Pour vérifier une configuration DNS que vous avez préparée mais pas encore ap
 
 Vous pouvez également forcer les vérifications sur un protocole IP spécifique, via les cases `Désactiver IPv6` et `Désactiver IPv4`
 
-> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ». Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ». Avant de changer les serveurs DNS, vous pouvez effectuez une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`. Zonemaster réalisera un test comme si vous utilisiez les serveurs « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».<br>
+> **Exemple**:<br><br> Vous possédez le nom de domaine « mydomain.ovh » qui utilise actuellement les serveurs DNS « dns19.ovh.net » et  « ns19.ovh.net ».
+>
+>Vous avez configuré une zone DNS pour ce nom domaine sur les serveurs DNS « mydns.test.ovh » et « mydns2.test.ovh ».<br>
+> Avant de changer les serveurs DNS, vous pouvez effectuer une recherche avancée à la l'aide de la case `Options`{.action} en saisissant « mydns.test.ovh » et « mydns2.test.ovh » dans les cases `Serveurs DNS`.<br>
+> Zonemaster réalisera un test comme si vous utilisiez les serveurs « mydns.test.ovh » et « mydns2.test.ovh » sur « mydomain.ovh ».<br>
 > ![domains](images/zonemaster02.png){.thumbnail}
 
 > [!primary]
