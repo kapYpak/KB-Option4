@@ -63,7 +63,7 @@ Vous pouvez également forcer les vérifications sur un protocole IP spécifique
 Une fois le formulaire validé, les résultats sont classés par code couleur :
 
 - **Vert** : Cette partie est fonctionnelle et répond aux critères standard dans sa catégorie.
-- **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté que ce paramètre présente des caractéristiques qui ne rentrent pas au standard de sa catégorie, sans bloquer son fonctionnement.
+- **Orange** : Cette partie est fonctionnelle, mais mérite une attention particulière. L'outil a détecté qu'un paramètre ne répond pas au standard de sa catégorie, sans que cela ne bloque son fonctionnement.
 - **Rouge** : Cette partie présente des erreurs ou des éléments manquants pouvant causer un dysfonctionnement  . 
 - **Bleu** : il s'agit d'une simple information, sans conséquence particulière sur le fonctionnement du nom de domaine.
 
