@@ -14,3 +14,8 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
    + [Adding cloud credit](platform/public-cloud/add_cloud_credit_to_project/guide.en-gb.md)
 + [Web](platform/public-cloud/configure-a-failover-ip/guide.fr-fr.md)
    + [Securing your domain name with DNSSEC](web/domains/dns_dnssec/guide.en-ie.md)
+
+
+-----
+Sous index account
++ [Account](account/index_account.md)
