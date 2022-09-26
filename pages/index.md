@@ -10,5 +10,5 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 ## Contents
 + [Homepage](home.en-ie.md)
 + [Public cloud](platform/public-cloud/configure-a-failover-ip/guide.fr-fr.md)
-   + [configurer_une_ip_failover](platform/public-cloud/configure-a-failover-ip/guide.fr-fr.md)
+   + [configurer_une_ip_failover](guide.fr-fr.md)
    + [Adding cloud credit](platform/public-cloud/add_cloud_credit_to_project/guide.en-gb.md)
