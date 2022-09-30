@@ -11,7 +11,7 @@ order: 1
 
 ## Objective
 
-1-click modules are designed to help you set up a website quickly and easily, without needing any technical knowledge. You can choose from the most popular CMSs: WordPress, PrestaShop, Drupal and Joomla!.
+1-csdfsefsfszgszgedgheasily, without needing any technical knowledge. You can choose from the most popular CMSs: WordPress, PrestaShop, Drupal and Joomla!.
 
 **Find out how to set up your website using our 1-click modules.**
 
