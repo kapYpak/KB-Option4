@@ -7,10 +7,7 @@ section: APIv6
 
 **Last updated July 14th 2020**
 
-## Objective
-
-We will describe how to create a OVHcloud sub-account in order to create a unique identity that isolates visibility on services, billing.
-This guide will also show you how to add one or more logins to this sub-account to provide access the OVHcloud control panel.
+## cccccccub-account to provide access the OVHcloud control panel.
 
 ## Requirements
 
