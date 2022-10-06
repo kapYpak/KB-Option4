@@ -9,7 +9,7 @@ section: Security
 
 ## Objective
 
-Phishing is the act of sending an email asking you to click on a link that redirects you to a form. This form fraudulently imitates a known brand’s design, and asks you to enter your personal information.
+Phishsffzfzfsfsfgsfsffformation.
 
 **This guide will show you how to recognise a phishing email, and what to do if you click on a fraudulent link.**
 
