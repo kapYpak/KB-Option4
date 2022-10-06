@@ -14,8 +14,16 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
    + [Adding cloud credit](platform/public-cloud/add_cloud_credit_to_project/guide.en-gb.md)
 + [Web](platform/public-cloud/configure-a-failover-ip/guide.fr-fr.md)
    + [Securing your domain name with DNSSEC](web/domains/dns_dnssec/guide.en-ie.md)
-
++ [Dedicated](cloud/dedicated/product.en-ie.md)
+   + [Changing the admin password on a Windows dedicated server](cloud/dedicated/changing-admin-password-on-windows/guide.en-ie.md)
+   + [Replacing a defective disk](cloud/dedicated/disk_replacement/guide.en-ie.md)
+   + [Creating SSH keys](cloud/dedicated/creating-ssh-keys-dedicated/guide.en-ie.md)
 
 -----
-Sous index account
-+ [Account](account/index_account.md)
+## Telecom FR Only
++ [XDSL]()
+    + [XDSL](telecom/xdsl/comment_resilier_mon_acces_xdsl/guide.fr-fr.md)
+    + [XDSL](telecom/xdsl/comment_activer_backup_LTE/guide.fr-fr.md)
++ [VOIP]()
+    + [Conference](telecom/voip/conference/guide.fr-fr.md)
+    + [Branchements C530 ip](telecom/voip/branchements_du_c530_ip/guide.fr-fr.md)
