@@ -1,0 +1,8 @@
+# categories names translations
+cloud: Cloud Public
+virtual-private-servers-on-the-cloud: VPS
+
+# optional translation for the article link: if not present, we could fall back on
+# the translated title from the markdown metadata
+cloud/vps/apps_first_steps: |
+  Vos premiers pas avec les applis préinstallées :)
