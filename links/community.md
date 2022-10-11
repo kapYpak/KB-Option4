@@ -1,0 +1,4 @@
+- [fr](https://community.ovh.com/)
+- [de](https://community.ovh.com/en/)
+- [fr-ca](https://community.ovh.com/)
+- [en-gb](https://community.ovh.com/en/)
