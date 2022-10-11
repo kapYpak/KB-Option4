@@ -1,8 +1,6 @@
 ---
 title: 'Réinitialiser un mot de passe Windows'
 slug: reinitialiser-un-mot-de-passe-windows
-excerpt: "Guide de réinitialisation d'un mot de passe sous Windows"
-section: Diagnostic et mode Rescue
 ---
 
 **Dernière mise à jour le 26/11/2020**
@@ -13,11 +11,11 @@ Il est possible que vous deviez réinitialiser un mot de passe dans votre VPS so
 
 ## Prérequis
 
-- Le VPS doit être en mode rescue (pour plus d'informations, consultez [Activer le mode rescue sur un VPS](../mode-rescue-vps)).
+- Le VPS doit être en mode rescue (pour plus d'informations, consultez [Activer le mode rescue sur un VPS](../rescue)).
 
 ## En pratique
 
-Connectez-vous sur le VPS via le VNC de [l'espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) avec les identifiants de connexion que vous avez reçu par e-mail.
+Connectez-vous sur le VPS via le VNC de [l'espace client OVHcloud](/links/manager-auth.md) avec les identifiants de connexion que vous avez reçu par e-mail.
 
 Tapez les commandes suivantes pour monter le système de fichiers distant :
 
@@ -41,7 +39,7 @@ chntpw -u Administrator SAM
 
 Appuyez sur `1`{.action} et `Entrée`{.action} pour effacer le mot de passe. Appuyez sur `q`{.action} pour quitter l'invite de commande de changement de mot de passe. Par la suite, appuyez sur `y`{.action} pour écrire les changements.
 
-Vous pouvez maintenant sortir le VPS du mode rescue. (pour plus d'informations, consultez le guide [Activer le mode rescue sur un VPS](../mode-rescue-vps))
+Vous pouvez maintenant sortir le VPS du mode rescue. (pour plus d'informations, consultez le guide [Activer le mode rescue sur un VPS](../rescue))
 
 A votre prochaine connexion, vous ne serez pas obligé d'entrer un mot de passe pour la session dont vous avez fait le changement de mot de passe.
 
@@ -56,4 +54,4 @@ Laissez le champ `Ancien mot de passe` vide et veuillez écrire votre nouveau mo
 
 ## Aller plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com/>.
+Échangez avec notre communauté d'utilisateurs sur </links/community.md>.

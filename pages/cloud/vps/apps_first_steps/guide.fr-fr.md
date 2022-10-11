@@ -1,9 +1,6 @@
 ---
 title: 'Premiers pas avec les applications préinstallées'
-slug: applications-preinstallees
 excerpt: Découvrez comment déployer des applications préinstallées sur votre VPS
-section: 'Premiers pas'
-order: 8
 ---
 
 **Dernière mise à jour le 25/08/2022**
@@ -16,13 +13,13 @@ OVHcloud offre aux clients VPS des images d'applications préinstallées pour un
 
 ## Prérequis
 
-- Disposer d'un [VPS](https://www.ovhcloud.com/fr/vps/) sur votre compte OVHcloud.
+- Disposer d'un [VPS](/links/website-vps.md) sur votre compte OVHcloud.
 
 ## En pratique
 
 ### Installer l'application préinstallée de votre choix
 
-Depuis [l'espace client OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=fr) ou les API OVHcloud, installez l'application de votre choix. Vous pouvez également consulter notre guide [Débuter avec un VPS](../debuter-avec-vps/).
+Depuis [l'espace client OVHcloud](/links/manager-auth.md) ou les API OVHcloud, installez l'application de votre choix. Vous pouvez également consulter notre guide [Débuter avec un VPS](../starting_with_a_vps/).
 
 #### cPanel
 
@@ -93,7 +90,7 @@ Cette section s'applique uniquement aux installations de WordPress, Drupal, Joom
    - personaldomain.ovh <br>
    - www.personaldomain.ovh <br>  
 
-Si votre domaine est enregistré chez OVHcloud, vous pouvez suivre [ce guide](../../domains/editer-ma-zone-dns/).
+Si votre domaine est enregistré chez OVHcloud, vous pouvez suivre [ce guide](/web/domains/dns_zone_edit/).
 <br>Si votre domaine est enregistré auprès d'une autre société, vous devrez contacter celle-ci pour obtenir de l'aide sur la configuration de vos enregistrements `A`.
 
 <ol start="2">
@@ -148,4 +145,4 @@ IMPORTANT NOTES:
 
 ## Allez plus loin
 
-Échangez avec notre communauté d'utilisateurs sur <https://community.ovh.com>.
+Échangez avec notre communauté d'utilisateurs sur </links/community.md>.

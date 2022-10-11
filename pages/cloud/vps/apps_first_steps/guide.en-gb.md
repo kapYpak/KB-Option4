@@ -1,9 +1,6 @@
 ---
 title: 'First steps with pre-installed applications'
-slug: pre-installed-applications
 excerpt: Find out how to deploy pre-installed applications on your VPS
-section: 'Getting started'
-order: 8
 ---
 
 **Last updated 25th August 2022**
@@ -16,13 +13,13 @@ OVHcloud offers VPS customers pre-installed application images for quick and eas
 
 ## Requirements
 
-- A [VPS](https://www.ovhcloud.com/en-gb/vps/) in your OVHcloud account
+- A [VPS](/links/website-vps.md) in your OVHcloud account
 
 ## Instructions
 
 ### Install your chosen pre-installed application
 
-Using the [OVHcloud Control Panel](../getting-started-vps/) / API, install your chosen application on your VPS.
+Using the [OVHcloud Control Panel](../starting_with_a_vps/) / API, install your chosen application on your VPS.
 
 #### cPanel
 
@@ -92,7 +89,7 @@ This section only applies to WordPress, Drupal, Joomla! and PrestaShop installat
     - personaldomain.ovh
     - www.personaldomain.ovh
 
-If your domain is registered with OVHcloud you can follow [this guide](../../domains/web_hosting_how_to_edit_my_dns_zone/).
+If your domain is registered with OVHcloud you can follow [this guide](/web/domains/dns_zone_edit/).
 <br>If your domain is registered with another company you will need to contact them for assistance to set up your `A` records.
 
 <ol start="2">
@@ -147,4 +144,4 @@ IMPORTANT NOTES:
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our community of users on </links/community.md>.

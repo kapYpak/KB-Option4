@@ -1,8 +1,6 @@
 ---
 title: 'Windows-Passwort zurücksetzen'
-slug: reinitialisierung-windows-passwort
 excerpt: Anleitung zum Zurücksetzen eines Passworts unter Windows
-section: Diagnose & Rescue Modus
 ---
 
 > [!primary]
@@ -21,7 +19,7 @@ Möglicherweise müssen Sie das Windows-Passwort auf Ihrem VPS zurücksetzen. Di
 
 ## In der praktischen Anwendung
 
-Loggen Sie sich über die VNC Konsole Ihres [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) mit den Login-Daten ein, die Sie per E-Mail erhalten haben.
+Loggen Sie sich über die VNC Konsole Ihres [OVHcloud Kundencenter](/links/manager-auth.md) mit den Login-Daten ein, die Sie per E-Mail erhalten haben.
 
 Geben Sie folgende Befehle ein, um das Dateisystem zu mounten:
 
@@ -60,4 +58,4 @@ Lassen Sie das Feld `Altes Passwort` leer und geben Sie Ihr neues Passwort zweim
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Für den Austausch mit unserer User Community gehen Sie auf </links/community.md>.

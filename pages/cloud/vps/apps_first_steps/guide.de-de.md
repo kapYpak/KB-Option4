@@ -1,9 +1,6 @@
 ---
 title: 'Erste Schritte mit vorinstallierten Anwendungen'
-slug: vorstellige-anwendungen
 excerpt: Erfahren Sie hier, wie Sie auf Ihrem VPS vorinstallierte Anwendungen einrichten
-section: 'Erste Schritte'
-order: 6
 ---
 
 > [!primary]
@@ -20,13 +17,13 @@ OVHcloud bietet VPS-Nutzern vorinstallierte Images verschiedener Anwendungen fü
 
 ## Voraussetzungen
 
-- Sie haben einen [VPS](https://www.ovhcloud.com/de/vps/) in Ihrem Kunden-Account.
+- Sie haben einen [VPS](/links/website-vps.md) in Ihrem Kunden-Account.
 
 ## In der praktischen Anwendung
 
 ### Die vorinstallierte Anwendung Ihrer Wahl installieren
 
-Installieren Sie die [Anwendung Ihrer Wahl](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de) über das OVHcloud Kundencenter oder die OVHcloud API. Sie können dazu auch unsere Anleitung "[Erste Schritte mit einem VPS](../erste-schritte-mit-einem-vps/)" heranziehen.
+Installieren Sie die [Anwendung Ihrer Wahl](/links/manager-auth.md) über das OVHcloud Kundencenter oder die OVHcloud API. Sie können dazu auch unsere Anleitung "[Erste Schritte mit einem VPS](../starting_with_a_vps/)" heranziehen.
  
 #### cPanel
 
@@ -97,7 +94,7 @@ Dieser Abschnitt gilt nur für WordPress-, Drupal-, Joomla!- und PrestaShop-Inst
      personaldomain.ovh <br>
      www.personaldomain.ovh <br>  
 
-Wenn Ihre Domain bei OVHcloud registriert ist, folgen Sie [dieser Anleitung](../../domains/webhosting_bearbeiten_der_dns_zone/).
+Wenn Ihre Domain bei OVHcloud registriert ist, folgen Sie [dieser Anleitung](/web/domains/dns_zone_edit/).
 <br>Wenn Ihre Domain bei einem anderen Anbieter registriert ist, kontaktieren Sie diesen, um Hilfe bei der Konfiguration Ihrer `A` Einträge zu erhalten.
 
 <ol start="2">
@@ -153,4 +150,4 @@ IMPORTANT NOTES:
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Für den Austausch mit unserer User Community gehen Sie auf </links/community.md>.

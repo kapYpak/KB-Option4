@@ -1,8 +1,6 @@
 ---
 title: 'Resetting a Windows password'
-slug: resetting-a-windows-password-vps
 excerpt: 'Guide to resetting a Windows password'
-section: Diagnostics and rescue mode
 ---
 
 **Last updated 25th November 2020**
@@ -17,7 +15,7 @@ In some cases you might need to reset a Windows password. This guide will show y
 
 ## Instructions
 
-Connect to the VPS via VNC in the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) with the login details you have received by email.
+Connect to the VPS via VNC in the [OVHcloud Control Panel](/links/manager-auth.md) with the login details you have received by email.
 
 Type the following commands to mount the remote file system:
 
@@ -56,4 +54,4 @@ Leave the `Old password` field blank and type your new password twice. Make sure
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our community of users on </links/community.md>.

@@ -1,8 +1,6 @@
 ---
 title: Eine neue Windows Server Installation konfigurieren
-slug: windows-first-config
 excerpt: Erfahren Sie hier, wie Sie Remote-Desktop-Verbindung, ICMP Antwort und Bootlogs aktivieren
-section: Erste Schritte
 ---
 
 > [!primary]
@@ -19,14 +17,14 @@ Nach der Neuinstallation eines Windows Server Betriebssystems auf einem VPS kön
 
 ## Voraussetzungen
 
-- Sie haben einen Windows [VPS](https://www.ovhcloud.com/de/vps/) in Ihrem Kunden-Account.
-- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.de/&ovhSubsidiary=de).
+- Sie haben einen Windows [VPS](/links/website-vps.md) in Ihrem Kunden-Account.
+- Sie haben Zugriff auf Ihr [OVHcloud Kundencenter](/links/manager-auth.md).
 
 ## In der praktischen Anwendung
 
 ### Schritt 1: KVM Zugang
 
-Um auf die KVM-Konsole Ihres VPS zuzugreifen, folgen Sie [unserer Anleitung](../verwendung_von_kvm_fur_vps/).
+Um auf die KVM-Konsole Ihres VPS zuzugreifen, folgen Sie [unserer Anleitung](../use_kvm_for_vps/).
 
 ### Schritt 2: Die Installation von Windows abschließen
 
@@ -62,7 +60,7 @@ Ihr Server sollte nun auf Anfragen antworten, die diese Protokolle verwenden.
 
 ### Windows Bootlogs aktivieren (optional)
 
-Loggen Sie sich via Remote-Desktop-Verbindung oder [KVM](../verwendung_von_kvm_fur_vps/) auf dem Server ein. Öffnen Sie das Windows Startmenü und klicken Sie auf `Run`{.action}.
+Loggen Sie sich via Remote-Desktop-Verbindung oder [KVM](../using_kvm_for_vps/) auf dem Server ein. Öffnen Sie das Windows Startmenü und klicken Sie auf `Run`{.action}.
 
 ![Bootlog](images/windowsboot1.png){.thumbnail}
 
@@ -80,4 +78,4 @@ Um die in der Datei gespeicherten Protokolle im Rescue-Modus einzusehen, folgen 
 
 ## Weiterführende Informationen
 
-Für den Austausch mit unserer User Community gehen Sie auf <https://community.ovh.com/en/>.
+Für den Austausch mit unserer User Community gehen Sie auf </links/community.md>.

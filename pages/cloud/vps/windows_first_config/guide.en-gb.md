@@ -1,8 +1,6 @@
 ---
 title: 'Configuring a new Windows Server installation'
-slug: windows-first-config
 excerpt: 'Find out how to enable Remote Desktop, ICMP and boot logs'
-section: 'Getting started'
 ---
 
 **Last updated 6th May 2022**
@@ -15,14 +13,14 @@ After a fresh installation of a Windows Server operating system on a VPS, remote
 
 ## Requirements
 
-- A Windows [VPS](https://www.ovhcloud.com/en-gb/vps) in your OVHcloud account
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- A Windows [VPS](/links/website-vps.md) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager-auth.md)
 
 ## Instructions
 
 ### Step 1: Log in with KVM
 
-To access the KVM console of your VPS, please follow the [VPS KVM guide](../use-kvm-for-vps/).
+To access the KVM console of your VPS, please follow the [VPS KVM guide](../use_kvm_for_vps/).
 
 ### Step 2: Finish the Windows setup
 
@@ -58,7 +56,7 @@ Your server should now be responding to requests using these protocols.
 
 ### Activating Windows boot logs (optional)
 
-Connect to your server via a Remote Desktop or [KVM](../use-kvm-for-vps/) session. Open the Windows start menu and click on `Run`{.action}.
+Connect to your server via a Remote Desktop or [KVM](../using_kvm_for_vps/) session. Open the Windows start menu and click on `Run`{.action}.
 
 ![Bootlog](images/windowsboot1.png){.thumbnail}
 
@@ -77,4 +75,4 @@ To access the contents of this file in rescue mode, please follow the instructio
 
 ## Go further
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our community of users on </links/community.md>.

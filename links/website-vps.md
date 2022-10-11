@@ -1,0 +1,4 @@
+- [fr](https://www.ovhcloud.com/fr/vps/)
+- [de](https://www.ovhcloud.com/de/vps/)
+- [fr-ca](https://www.ovhcloud.com/fr-ca/vps/)
+- [en-gb](https://www.ovhcloud.com/en-gb/vps/)
