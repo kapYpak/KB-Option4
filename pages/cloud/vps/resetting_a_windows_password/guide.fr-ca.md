@@ -1,9 +1,13 @@
 ---
 title: 'Réinitialiser un mot de passe Windows'
-excerpt: "Guide de réinitialisation d'un mot de passe sous Windows"
+slug: reinitialiser-un-mot-de-passe-windows
 ---
 
 **Dernière mise à jour le 26/11/2020**
+
+## Special
+
+A noter, ceci est une page localisée fr-ca.
 
 ## Objectif
 

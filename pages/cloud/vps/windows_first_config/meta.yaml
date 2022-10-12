@@ -1,2 +1,5 @@
 id: 507a605a-4947-11ed-b878-0242ac120002
 full_slug: virtual-private-servers-windows-first-config
+
+# For this guide, the default language fallback behavior applies: a fr-ca guide will be generated using fr-fr contents
+# and linking to other fr-ca localized guides.
