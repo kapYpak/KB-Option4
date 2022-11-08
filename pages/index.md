@@ -9,4 +9,4 @@ Some explanations about how this file works
     + [VPS](virtual-private-servers-on-the-cloud)
         + [First steps](cloud/vps/apps_first_steps)
         + [Password reset](cloud/vps/resetting_a_windows_password)
-        + [Windows first configuration](cloud/vps/windows_first_config)
+        + [root_password](cloud/vps/root_password)
